@@ -62,13 +62,13 @@ while IFS= read -r ipport; do
 
   if echo "$result" | grep -q 'Port is open'; then
     echo "$ip $port : open"
-    echo "$ip" >> "$temp_file_results"
+    echo "$ip $port" >> "$temp_file_results"
   else
     echo "$ip $port : No response"
   fi
 done < "$temp_file"
 
-# 输出开放端口的IP（去重）
+# 输出开放端口的IP+端口（去重）
 if [[ -s "$temp_file_results" ]]; then
   echo "已检测到开放端口的IP如下："
   sort "$temp_file_results" | uniq
