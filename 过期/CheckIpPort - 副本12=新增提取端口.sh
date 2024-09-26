@@ -6,7 +6,7 @@ script_dir="$(dirname "$(realpath "$0")")"
 # 设置日志文件路径
 logfile="$script_dir/RouteLog.txt"
 # 设置测试结果文件路径
-open_results="$script_dir/ip.txt"
+temp_file_results="$script_dir/ip.txt"
 
 # 设置tcping工具路径
 tcping_path="/cygdrive/g/msys64/usr/bin/tcping"
@@ -16,7 +16,7 @@ regex='src=([0-9a-fA-F:.]+).*dport=([0-9]+)'
 
 # 初始化文件
 echo "" > "$logfile"
-echo "" > "$open_results"
+echo "" > "$temp_file_results"
 
 # 打开RouteLog.txt以便用户输入日志
 cmd.exe /c start "" "$logfile"
@@ -34,10 +34,7 @@ while true; do
 done
 
 # 临时文件存储提取的IP和端口
-temp_dir=$(cmd /c echo %TEMP% | tr -d '\r')
-temp_all=$(mktemp "$temp_dir\\temp_all.XXXXXX")
-temp_open=$(mktemp "$temp_dir\\temp_open.XXXXXX")
-temp_close=$(mktemp "$temp_dir\\temp_close.XXXXXX")
+temp_file=$(mktemp)
 
 # 提取IP和端口并输出
 echo "提取到的IP和端口："
@@ -47,7 +44,7 @@ while IFS= read -r line; do
     dport="${BASH_REMATCH[2]}"
     # 只输出src_ip和dport（端口）
     echo "$src_ip $dport"
-    echo "$src_ip $dport" >> "$temp_all"
+    echo "$src_ip $dport" >> "$temp_file"
   fi
 done < "$logfile"
 
@@ -65,39 +62,27 @@ while IFS= read -r ipport; do
 
   if echo "$result" | grep -q 'Port is open'; then
     echo "$ip $port : open"
-    echo "$ip $port" >> "$temp_open"
+    echo "$ip $port" >> "$temp_file_results"
   else
     echo "$ip $port : No response"
-    echo "$ip $port" >> "$temp_close"
   fi
-done < "$temp_all"
+done < "$temp_file"
 
 # 输出开放端口的IP+端口（去重）
-if [[ -s "$temp_open" ]]; then
-	echo "已检测到开放端口的IP如下："
-	sort "$temp_open" | uniq
-	sort "$temp_open" | uniq >> "$open_results"
+if [[ -s "$temp_file_results" ]]; then
+  echo "已检测到开放端口的IP如下："
+  sort "$temp_file_results" | uniq
 else
   echo "没有检测到开放端口的IP。"
 fi
 
-echo "未开放端口的IP如下："
-if [[ -s "$temp_close" ]]; then
-	# cat "$temp_close"
-	sort "$temp_close" | uniq
-else
-  echo "没有提取到任何IP和端口。"
-fi
-
 # 清理临时文件
-rm "$temp_all"
-rm "$temp_open"
-rm "$temp_close"
+rm "$temp_file"
 
 # 如果ip.txt文件有内容，打开文件
-if grep -q '[^[:space:]]' "$open_results"; then
+if grep -q '[^[:space:]]' "$temp_file_results"; then
   echo "探测完毕,打开ip.txt..."
-  cmd.exe /c start "" "$open_results"  # 在Linux中使用xdg-open，如果是Windows，使用cmd.exe打开文件
+  cmd.exe /c start "" "$temp_file_results"  # 在Linux中使用xdg-open，如果是Windows，使用cmd.exe打开文件
 else
   echo "没有检测到公网ip，ip.txt输出失败。"
   # read -n 1 -s -r -p "按任意键继续..."
