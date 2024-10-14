@@ -46,7 +46,7 @@ while IFS= read -r line; do
     src_ip="${BASH_REMATCH[1]}"
     dport="${BASH_REMATCH[2]}"
     # 只输出src_ip和dport（端口）
-    echo "$src_ip $dport"
+    echo "$src_ip:$dport"
     echo "$src_ip $dport" >> "$temp_all"
   fi
 done < "$logfile"
