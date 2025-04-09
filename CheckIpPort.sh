@@ -9,7 +9,7 @@ logfile="$script_dir/RouteLog.txt"
 open_results="$script_dir/ip.txt"
 
 # 设置tcping工具路径
-tcping_path="/cygdrive/g/msys64/usr/bin/tcping"
+tcping_path="/cygdrive/e/Cygwin/bin/tcping.exe"
 
 # 定义一个正则表达式来匹配src和dport，支持IPv4和IPv6
 regex='src=([0-9a-fA-F:.]+).*dport=([0-9]+)'
