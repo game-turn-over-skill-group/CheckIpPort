@@ -11,8 +11,8 @@ open_results="$script_dir/ip.txt"
 # 设置tcping工具路径
 tcping_path="/cygdrive/e/Cygwin/bin/tcping.exe"
 
-# 定义一个正则表达式来匹配src和dport，支持IPv4和IPv6
-regex='src=([0-9a-fA-F:.]+).*dport=([0-9]+)'
+# 定义一个正则表达式来匹配src和sport，支持IPv4和IPv6
+regex='src=([0-9a-fA-F:.]+).*sport=([0-9]+)'
 
 # 初始化文件
 echo "" > "$logfile"
@@ -43,11 +43,16 @@ temp_close=$(mktemp "$temp_dir\\temp_close.XXXXXX")
 echo "提取到的IP和端口："
 while IFS= read -r line; do
   if [[ $line =~ $regex ]]; then
-    src_ip="${BASH_REMATCH[1]}"
-    dport="${BASH_REMATCH[2]}"
-    # 只输出src_ip和dport（端口）
-    echo "$src_ip:$dport"
-    echo "$src_ip $dport" >> "$temp_all"
+
+    # 使用Bash字符串操作提取每个字段的原始数据
+    src_ip___="${line#*src=}"
+    src_ip="${src_ip___%% *}"  # 提取源IP
+    src_port___="${line#*sport=}"
+    src_port="${src_port___%% *}"  # 提取源端口
+
+    # 只输出src_ip和src_port
+    echo "$src_ip:$src_port"
+    echo "$src_ip $src_port" >> "$temp_all"
   fi
 done < "$logfile"
 
