@@ -50,20 +50,11 @@ while IFS= read -r line; do
     src_port___="${line#*sport=}"
     src_port="${src_port___%% *}"  # 提取源端口
 
-    # 输出src_ip和src_port
-    # echo "$src_ip:$src_port"
-    # 只写入temp_all，暂不echo到终端
+    # 只输出src_ip和src_port
+    echo "$src_ip:$src_port"
     echo "$src_ip $src_port" >> "$temp_all"
   fi
 done < "$logfile"
-
-# 第三步：对temp_all去重（核心步骤，仅这一步新增）
-sort -u "$temp_all" > "$temp_all.tmp" && mv "$temp_all.tmp" "$temp_all"
-
-# 第四步：读取去重后的temp_all，echo到终端（格式为IP:端口）
-while IFS=' ' read -r ip port; do
-  echo "$ip:$port"
-done < "$temp_all"
 
 # 打印开始测试的信息
 echo "开始tcping是否公网端口开放..."

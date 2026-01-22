@@ -1,0 +1,399 @@
+Microsoft Windows [版本 10.0.19045.6466]
+(c) Microsoft Corporation。保留所有权利。
+
+C:\Users\Administrator\Desktop>lc -n udp -ip 1.61.63.38
+C:\Users\Administrator\Desktop>lc -n udp -ip 1.80.196.71
+C:\Users\Administrator\Desktop>lc -n udp -ip 1.160.87.231
+C:\Users\Administrator\Desktop>lc -n udp -ip 2.56.190.31
+C:\Users\Administrator\Desktop>lc -n udp -ip 5.132.44.233
+C:\Users\Administrator\Desktop>lc -n udp -ip 14.145.40.106
+C:\Users\Administrator\Desktop>lc -n udp -ip 14.145.50.37
+C:\Users\Administrator\Desktop>lc -n udp -ip 14.221.38.100
+C:\Users\Administrator\Desktop>lc -n udp -ip 24.237.99.31
+ipv4     2 udp      17 14 src=24.237.99.31 dst=211.97.119.88 sport=28877 dport=6969 packets=14 bytes=616 src=211.97.119.88 dst=24.237.99.31 sport=1355 dport=28877 packets=14 bytes=616 mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 27.242.197.22
+C:\Users\Administrator\Desktop>lc -n udp -ip 36.27.216.212
+C:\Users\Administrator\Desktop>lc -n udp -ip 36.27.216.215
+C:\Users\Administrator\Desktop>lc -n udp -ip 36.27.216.216
+C:\Users\Administrator\Desktop>lc -n udp -ip 36.27.216.217
+C:\Users\Administrator\Desktop>lc -n udp -ip 36.100.71.72
+ipv4     2 udp      17 177 src=36.100.71.72 dst=211.97.119.88 sport=28517 dport=6969 packets=71 bytes=8425 src=211.97.119.88 dst=36.100.71.72 sport=1360 dport=28517 packets=71 bytes=3706 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 36.143.53.151
+ipv4     2 udp      17 150 src=36.143.53.151 dst=211.97.119.88 sport=9686 dport=6969 packets=290 bytes=38800 src=211.97.119.88 dst=36.143.53.151 sport=1361 dport=9686 packets=290 bytes=16184 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 36.228.110.132
+ipv4     2 udp      17 178 src=36.228.110.132 dst=211.97.119.88 sport=27699 dport=6969 packets=29422 bytes=3916796 src=211.97.119.88 dst=36.228.110.132 sport=1356 dport=27699 packets=29422 bytes=1634678 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 36.250.241.237
+ipv4     2 udp      17 108 src=36.250.241.237 dst=211.97.119.88 sport=9862 dport=6969 packets=28 bytes=1232 src=211.97.119.88 dst=36.250.241.237 sport=777 dport=9862 packets=28 bytes=1232 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 163 src=36.250.241.237 dst=211.97.119.88 sport=57377 dport=6969 packets=1171 bytes=51524 src=211.97.119.88 dst=36.250.241.237 sport=666 dport=57377 packets=1171 bytes=51524 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 83 src=36.250.241.237 dst=211.97.119.88 sport=9862 dport=2710 packets=56 bytes=2464 src=211.97.119.88 dst=36.250.241.237 sport=666 dport=9862 packets=56 bytes=2464 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 130 src=36.250.241.237 dst=211.97.119.88 sport=9762 dport=6969 packets=18 bytes=792 src=211.97.119.88 dst=36.250.241.237 sport=888 dport=21712 packets=18 bytes=792 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 127 src=36.250.241.237 dst=211.97.119.88 sport=9762 dport=6969 packets=18 bytes=792 src=211.97.119.88 dst=36.250.241.237 sport=888 dport=21712 packets=18 bytes=792 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 38.253.189.27
+C:\Users\Administrator\Desktop>lc -n udp -ip 39.166.46.178
+C:\Users\Administrator\Desktop>lc -n udp -ip 39.171.169.193
+C:\Users\Administrator\Desktop>lc -n udp -ip 42.48.100.95
+ipv4     2 udp      17 177 src=42.48.100.95 dst=211.97.119.88 sport=15148 dport=6969 packets=293 bytes=37723 src=211.97.119.88 dst=42.48.100.95 sport=1355 dport=15148 packets=293 bytes=15646 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 42.49.101.227
+C:\Users\Administrator\Desktop>lc -n udp -ip 45.13.191.14
+ipv4     2 udp      17 176 src=45.13.191.14 dst=211.97.119.88 sport=54780 dport=2710 packets=1089 bytes=146403 src=211.97.119.88 dst=45.13.191.14 sport=1332 dport=54780 packets=1089 bytes=58500 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 177 src=45.13.191.14 dst=211.97.119.88 sport=17200 dport=6969 packets=814 bytes=109937 src=211.97.119.88 dst=45.13.191.14 sport=1351 dport=17200 packets=814 bytes=43846 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 45.13.191.31
+C:\Users\Administrator\Desktop>lc -n udp -ip 45.13.191.96
+C:\Users\Administrator\Desktop>lc -n udp -ip 45.154.152.14
+C:\Users\Administrator\Desktop>lc -n udp -ip 45.155.41.115
+C:\Users\Administrator\Desktop>lc -n udp -ip 46.29.25.30
+C:\Users\Administrator\Desktop>lc -n udp -ip 46.29.25.50
+C:\Users\Administrator\Desktop>lc -n udp -ip 46.29.25.66
+C:\Users\Administrator\Desktop>lc -n udp -ip 46.29.25.90
+C:\Users\Administrator\Desktop>lc -n udp -ip 46.29.25.149
+C:\Users\Administrator\Desktop>lc -n udp -ip 49.76.65.107
+C:\Users\Administrator\Desktop>lc -n udp -ip 50.71.141.160
+ipv4     2 udp      17 157 src=50.71.141.160 dst=211.97.119.88 sport=7353 dport=2710 packets=662 bytes=86974 src=211.97.119.88 dst=50.71.141.160 sport=1337 dport=7353 packets=662 bytes=37496 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 51.154.73.56
+C:\Users\Administrator\Desktop>lc -n udp -ip 58.152.209.76
+C:\Users\Administrator\Desktop>lc -n udp -ip 58.216.29.41
+ipv4     2 udp      17 14 src=58.216.29.41 dst=211.97.119.88 sport=9448 dport=2710 packets=90 bytes=3960 src=211.97.119.88 dst=58.216.29.41 sport=777 dport=9448 packets=90 bytes=3960 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 76 src=58.216.29.41 dst=211.97.119.88 sport=9844 dport=2710 packets=42 bytes=1848 src=211.97.119.88 dst=58.216.29.41 sport=888 dport=9844 packets=42 bytes=1848 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 151 src=58.216.29.41 dst=211.97.119.88 sport=9416 dport=6969 packets=8 bytes=352 src=211.97.119.88 dst=58.216.29.41 sport=888 dport=9416 packets=8 bytes=352 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 158 src=58.216.29.41 dst=211.97.119.88 sport=9710 dport=6969 packets=22 bytes=968 src=211.97.119.88 dst=58.216.29.41 sport=888 dport=9710 packets=22 bytes=968 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 179 src=58.216.29.41 dst=211.97.119.88 sport=64631 dport=6969 packets=2024 bytes=89056 src=211.97.119.88 dst=58.216.29.41 sport=666 dport=13000 packets=2024 bytes=89056 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 179 src=58.216.29.41 dst=211.97.119.88 sport=64631 dport=6969 packets=2024 bytes=89056 src=211.97.119.88 dst=58.216.29.41 sport=666 dport=13000 packets=2024 bytes=89056 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 40 src=58.216.29.41 dst=211.97.119.88 sport=9844 dport=6969 packets=21 bytes=924 src=211.97.119.88 dst=58.216.29.41 sport=666 dport=9844 packets=21 bytes=924 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 60.162.168.4
+ipv4     2 udp      17 134 src=60.162.168.43 dst=211.97.119.88 sport=9208 dport=2710 packets=1380 bytes=60720 src=211.97.119.88 dst=60.162.168.43 sport=999 dport=9208 packets=1380 bytes=60720 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 178 src=60.162.168.43 dst=211.97.119.88 sport=9801 dport=2710 packets=20 bytes=880 src=211.97.119.88 dst=60.162.168.43 sport=888 dport=9801 packets=20 bytes=880 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 123 src=60.162.168.49 dst=211.97.119.88 sport=9487 dport=2710 packets=198 bytes=8712 src=211.97.119.88 dst=60.162.168.49 sport=888 dport=9487 packets=198 bytes=8712 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 179 src=60.162.168.49 dst=211.97.119.88 sport=9741 dport=2710 packets=820 bytes=36080 src=211.97.119.88 dst=60.162.168.49 sport=666 dport=1062 packets=820 bytes=36080 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 178 src=60.162.168.40 dst=211.97.119.88 sport=9392 dport=6969 packets=48 bytes=2112 src=211.97.119.88 dst=60.162.168.40 sport=888 dport=9392 packets=48 bytes=2112 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 179 src=60.162.168.41 dst=211.97.119.88 sport=9458 dport=6969 packets=119 bytes=5236 src=211.97.119.88 dst=60.162.168.41 sport=999 dport=12348 packets=119 bytes=5236 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 76 src=60.162.168.46 dst=211.97.119.88 sport=9726 dport=6969 packets=467 bytes=20548 src=211.97.119.88 dst=60.162.168.46 sport=777 dport=9726 packets=467 bytes=20548 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 0 src=60.162.168.43 dst=211.97.119.88 sport=54228 dport=2710 packets=12 bytes=528 src=211.97.119.88 dst=60.162.168.43 sport=777 dport=54228 packets=12 bytes=528 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.45 dst=211.97.119.88 sport=9519 dport=6969 packets=117 bytes=5148 src=211.97.119.88 dst=60.162.168.45 sport=777 dport=9519 packets=117 bytes=5148 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 130 src=60.162.168.43 dst=211.97.119.88 sport=9208 dport=6969 packets=690 bytes=30360 src=211.97.119.88 dst=60.162.168.43 sport=888 dport=9208 packets=690 bytes=30360 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 175 src=60.162.168.4 dst=211.97.119.88 sport=9377 dport=6969 packets=37 bytes=1628 src=211.97.119.88 dst=60.162.168.4 sport=666 dport=9377 packets=37 bytes=1628 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 175 src=60.162.168.4 dst=211.97.119.88 sport=9377 dport=6969 packets=37 bytes=1628 src=211.97.119.88 dst=60.162.168.4 sport=666 dport=9377 packets=37 bytes=1628 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 178 src=60.162.168.48 dst=211.97.119.88 sport=9839 dport=6969 packets=37 bytes=1628 src=211.97.119.88 dst=60.162.168.48 sport=666 dport=9839 packets=37 bytes=1628 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 6 src=60.162.168.45 dst=211.97.119.88 sport=9520 dport=6969 packets=105 bytes=4620 src=211.97.119.88 dst=60.162.168.45 sport=666 dport=9520 packets=105 bytes=4620 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 6 src=60.162.168.45 dst=211.97.119.88 sport=9520 dport=6969 packets=105 bytes=4620 src=211.97.119.88 dst=60.162.168.45 sport=666 dport=9520 packets=105 bytes=4620 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 92 src=60.162.168.46 dst=211.97.119.88 sport=9961 dport=6969 packets=5 bytes=220 src=211.97.119.88 dst=60.162.168.46 sport=888 dport=9961 packets=5 bytes=220 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=60.162.168.4 dst=211.97.119.88 sport=9388 dport=2710 packets=16 bytes=704 src=211.97.119.88 dst=60.162.168.4 sport=999 dport=9388 packets=16 bytes=704 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=60.162.168.4 dst=211.97.119.88 sport=9388 dport=2710 packets=16 bytes=704 src=211.97.119.88 dst=60.162.168.4 sport=999 dport=9388 packets=16 bytes=704 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=60.162.168.4 dst=211.97.119.88 sport=9388 dport=2710 packets=16 bytes=704 src=211.97.119.88 dst=60.162.168.4 sport=999 dport=9388 packets=16 bytes=704 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 116 src=60.162.168.45 dst=211.97.119.88 sport=9860 dport=2710 packets=196 bytes=8624 src=211.97.119.88 dst=60.162.168.45 sport=666 dport=9860 packets=196 bytes=8624 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 166 src=60.162.168.43 dst=211.97.119.88 sport=9801 dport=6969 packets=3 bytes=132 src=211.97.119.88 dst=60.162.168.43 sport=666 dport=9801 packets=3 bytes=132 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 70 src=60.162.168.40 dst=211.97.119.88 sport=9210 dport=2710 packets=142 bytes=6248 src=211.97.119.88 dst=60.162.168.40 sport=999 dport=9210 packets=142 bytes=6248 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 70 src=60.162.168.40 dst=211.97.119.88 sport=9210 dport=2710 packets=142 bytes=6248 src=211.97.119.88 dst=60.162.168.40 sport=999 dport=9210 packets=142 bytes=6248 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 160 src=60.162.168.48 dst=211.97.119.88 sport=9839 dport=2710 packets=74 bytes=3256 src=211.97.119.88 dst=60.162.168.48 sport=777 dport=9839 packets=74 bytes=3256 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 157 src=60.162.168.4 dst=211.97.119.88 sport=9388 dport=6969 packets=8 bytes=352 src=211.97.119.88 dst=60.162.168.4 sport=777 dport=9388 packets=8 bytes=352 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=60.162.168.44 dst=211.97.119.88 sport=9273 dport=6969 packets=13 bytes=572 src=211.97.119.88 dst=60.162.168.44 sport=999 dport=9273 packets=13 bytes=572 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 143 src=60.162.168.40 dst=211.97.119.88 sport=9392 dport=2710 packets=96 bytes=4224 src=211.97.119.88 dst=60.162.168.40 sport=666 dport=9392 packets=96 bytes=4224 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 108 src=60.162.168.46 dst=211.97.119.88 sport=9514 dport=6969 packets=5 bytes=220 src=211.97.119.88 dst=60.162.168.46 sport=777 dport=9514 packets=5 bytes=220 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 98 src=60.162.168.4 dst=211.97.119.88 sport=9377 dport=2710 packets=88 bytes=3872 src=211.97.119.88 dst=60.162.168.4 sport=888 dport=9377 packets=88 bytes=3872 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 97 src=60.162.168.4 dst=211.97.119.88 sport=9377 dport=2710 packets=88 bytes=3872 src=211.97.119.88 dst=60.162.168.4 sport=888 dport=9377 packets=88 bytes=3872 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 158 src=60.162.168.49 dst=211.97.119.88 sport=9790 dport=2710 packets=10 bytes=440 src=211.97.119.88 dst=60.162.168.49 sport=999 dport=43833 packets=10 bytes=440 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 158 src=60.162.168.49 dst=211.97.119.88 sport=9790 dport=2710 packets=10 bytes=440 src=211.97.119.88 dst=60.162.168.49 sport=999 dport=43833 packets=10 bytes=440 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 85 src=60.162.168.47 dst=211.97.119.88 sport=9747 dport=6969 packets=3 bytes=132 src=211.97.119.88 dst=60.162.168.47 sport=666 dport=9747 packets=3 bytes=132 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 84 src=60.162.168.47 dst=211.97.119.88 sport=9747 dport=6969 packets=3 bytes=132 src=211.97.119.88 dst=60.162.168.47 sport=666 dport=9747 packets=3 bytes=132 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 84 src=60.162.168.47 dst=211.97.119.88 sport=9747 dport=6969 packets=3 bytes=132 src=211.97.119.88 dst=60.162.168.47 sport=666 dport=9747 packets=3 bytes=132 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 142 src=60.162.168.49 dst=211.97.119.88 sport=9741 dport=6969 packets=423 bytes=18612 src=211.97.119.88 dst=60.162.168.49 sport=666 dport=9741 packets=423 bytes=18612 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 142 src=60.162.168.49 dst=211.97.119.88 sport=9741 dport=6969 packets=423 bytes=18612 src=211.97.119.88 dst=60.162.168.49 sport=666 dport=9741 packets=423 bytes=18612 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 142 src=60.162.168.49 dst=211.97.119.88 sport=9741 dport=6969 packets=423 bytes=18612 src=211.97.119.88 dst=60.162.168.49 sport=666 dport=9741 packets=423 bytes=18612 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 22 src=60.162.168.41 dst=211.97.119.88 sport=9551 dport=6969 packets=84 bytes=3696 src=211.97.119.88 dst=60.162.168.41 sport=777 dport=9551 packets=84 bytes=3696 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 149 src=60.162.168.41 dst=211.97.119.88 sport=9458 dport=2710 packets=290 bytes=12760 src=211.97.119.88 dst=60.162.168.41 sport=999 dport=9458 packets=290 bytes=12760 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 141 src=60.162.168.41 dst=211.97.119.88 sport=9458 dport=2710 packets=290 bytes=12760 src=211.97.119.88 dst=60.162.168.41 sport=999 dport=9458 packets=290 bytes=12760 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 141 src=60.162.168.41 dst=211.97.119.88 sport=9458 dport=2710 packets=290 bytes=12760 src=211.97.119.88 dst=60.162.168.41 sport=999 dport=9458 packets=290 bytes=12760 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 141 src=60.162.168.41 dst=211.97.119.88 sport=9458 dport=2710 packets=290 bytes=12760 src=211.97.119.88 dst=60.162.168.41 sport=999 dport=9458 packets=290 bytes=12760 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 60.162.168.137
+ipv4     2 udp      17 179 src=60.162.168.137 dst=211.97.119.88 sport=9858 dport=2710 packets=196 bytes=8624 src=211.97.119.88 dst=60.162.168.137 sport=999 dport=9858 packets=196 bytes=8624 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 175 src=60.162.168.137 dst=211.97.119.88 sport=9858 dport=6969 packets=91 bytes=4004 src=211.97.119.88 dst=60.162.168.137 sport=888 dport=9858 packets=91 bytes=4004 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 124 src=60.162.168.137 dst=211.97.119.88 sport=9309 dport=2710 packets=104 bytes=4576 src=211.97.119.88 dst=60.162.168.137 sport=888 dport=9309 packets=104 bytes=4576 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 60.162.168.139
+ipv4     2 udp      17 5 src=60.162.168.139 dst=211.97.119.88 sport=9844 dport=2710 packets=16 bytes=704 src=211.97.119.88 dst=60.162.168.139 sport=666 dport=9844 packets=16 bytes=704 mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 60.162.168.170
+ipv4     2 udp      17 99 src=60.162.168.170 dst=211.97.119.88 sport=9307 dport=2710 packets=8 bytes=352 src=211.97.119.88 dst=60.162.168.170 sport=777 dport=9307 packets=8 bytes=352 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 4 src=60.162.168.170 dst=211.97.119.88 sport=9236 dport=2710 packets=4 bytes=176 src=211.97.119.88 dst=60.162.168.170 sport=666 dport=48943 packets=4 bytes=176 mark=0 zone=0 use=2
+ipv4     2 udp      17 4 src=60.162.168.170 dst=211.97.119.88 sport=9236 dport=2710 packets=4 bytes=176 src=211.97.119.88 dst=60.162.168.170 sport=666 dport=48943 packets=4 bytes=176 mark=0 zone=0 use=2
+ipv4     2 udp      17 4 src=60.162.168.170 dst=211.97.119.88 sport=9236 dport=2710 packets=4 bytes=176 src=211.97.119.88 dst=60.162.168.170 sport=666 dport=48943 packets=4 bytes=176 mark=0 zone=0 use=2
+ipv4     2 udp      17 4 src=60.162.168.170 dst=211.97.119.88 sport=9236 dport=2710 packets=4 bytes=176 src=211.97.119.88 dst=60.162.168.170 sport=666 dport=48943 packets=4 bytes=176 mark=0 zone=0 use=2
+ipv4     2 udp      17 3 src=60.162.168.170 dst=211.97.119.88 sport=9236 dport=2710 packets=4 bytes=176 src=211.97.119.88 dst=60.162.168.170 sport=666 dport=48943 packets=4 bytes=176 mark=0 zone=0 use=2
+ipv4     2 udp      17 3 src=60.162.168.170 dst=211.97.119.88 sport=9236 dport=2710 packets=4 bytes=176 src=211.97.119.88 dst=60.162.168.170 sport=666 dport=48943 packets=4 bytes=176 mark=0 zone=0 use=2
+ipv4     2 udp      17 3 src=60.162.168.170 dst=211.97.119.88 sport=9236 dport=2710 packets=4 bytes=176 src=211.97.119.88 dst=60.162.168.170 sport=666 dport=48943 packets=4 bytes=176 mark=0 zone=0 use=2
+ipv4     2 udp      17 156 src=60.162.168.170 dst=211.97.119.88 sport=9307 dport=6969 packets=5 bytes=220 src=211.97.119.88 dst=60.162.168.170 sport=999 dport=9307 packets=5 bytes=220 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 156 src=60.162.168.170 dst=211.97.119.88 sport=9307 dport=6969 packets=5 bytes=220 src=211.97.119.88 dst=60.162.168.170 sport=999 dport=9307 packets=5 bytes=220 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 60.174.72.134
+C:\Users\Administrator\Desktop>lc -n udp -ip 61.140.197.17
+C:\Users\Administrator\Desktop>lc -n udp -ip 61.141.171.157
+C:\Users\Administrator\Desktop>lc -n udp -ip 61.150.11.144
+C:\Users\Administrator\Desktop>lc -n udp -ip 62.3.36.69
+C:\Users\Administrator\Desktop>lc -n udp -ip 66.234.146.24
+ipv4     2 udp      17 70 src=66.234.146.24 dst=211.97.119.88 sport=45433 dport=6969 packets=3 bytes=132 src=211.97.119.88 dst=66.234.146.24 sport=1362 dport=45433 packets=3 bytes=132 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 79.115.155.204
+C:\Users\Administrator\Desktop>lc -n udp -ip 79.116.24.141
+C:\Users\Administrator\Desktop>lc -n udp -ip 79.127.136.27
+C:\Users\Administrator\Desktop>lc -n udp -ip 81.152.13.74
+ipv4     2 udp      17 176 src=81.152.13.74 dst=211.97.119.88 sport=36881 dport=6969 packets=1028 bytes=138511 src=211.97.119.88 dst=81.152.13.74 sport=1361 dport=36881 packets=1028 bytes=61522 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 82.103.77.144
+C:\Users\Administrator\Desktop>lc -n udp -ip 83.136.182.21
+C:\Users\Administrator\Desktop>lc -n udp -ip 83.253.159.155
+C:\Users\Administrator\Desktop>lc -n udp -ip 85.8.130.86
+C:\Users\Administrator\Desktop>lc -n udp -ip 85.254.166.79
+C:\Users\Administrator\Desktop>lc -n udp -ip 87.49.146.57
+C:\Users\Administrator\Desktop>lc -n udp -ip 87.61.102.224
+ipv4     2 udp      17 177 src=87.61.102.224 dst=211.97.119.88 sport=23552 dport=6969 packets=97 bytes=12917 src=211.97.119.88 dst=87.61.102.224 sport=1361 dport=23552 packets=97 bytes=5216 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 88.196.21.118
+C:\Users\Administrator\Desktop>lc -n udp -ip 90.114.248.64
+C:\Users\Administrator\Desktop>lc -n udp -ip 91.82.76.2
+C:\Users\Administrator\Desktop>lc -n udp -ip 91.132.138.214
+C:\Users\Administrator\Desktop>lc -n udp -ip 94.62.17.202
+C:\Users\Administrator\Desktop>lc -n udp -ip 94.101.114.146
+C:\Users\Administrator\Desktop>lc -n udp -ip 94.140.8.238
+ipv4     2 udp      17 35 src=94.140.8.238 dst=211.97.119.88 sport=23694 dport=2710 packets=135 bytes=6684 src=211.97.119.88 dst=94.140.8.238 sport=1333 dport=23694 packets=135 bytes=6020 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 101.21.21.130
+C:\Users\Administrator\Desktop>lc -n udp -ip 101.69.63.56
+ipv4     2 udp      17 177 src=101.69.63.56 dst=211.97.119.88 sport=27775 dport=6969 packets=1290 bytes=163524 src=211.97.119.88 dst=101.69.63.56 sport=777 dport=27775 packets=1290 bytes=295688 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 178 src=101.69.63.56 dst=211.97.119.88 sport=9347 dport=6969 packets=47 bytes=5695 src=211.97.119.88 dst=101.69.63.56 sport=777 dport=9347 packets=47 bytes=2800 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 153 src=101.69.63.56 dst=211.97.119.88 sport=9231 dport=2710 packets=10 bytes=998 src=211.97.119.88 dst=101.69.63.56 sport=999 dport=9231 packets=10 bytes=548 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 177 src=101.69.63.56 dst=211.97.119.88 sport=9347 dport=2710 packets=119 bytes=14629 src=211.97.119.88 dst=101.69.63.56 sport=666 dport=9347 packets=119 bytes=7110 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 179 src=101.69.63.56 dst=211.97.119.88 sport=27775 dport=2710 packets=2565 bytes=325365 src=211.97.119.88 dst=101.69.63.56 sport=666 dport=27775 packets=2565 bytes=665570 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 163 src=101.69.63.56 dst=211.97.119.88 sport=9643 dport=6969 packets=61 bytes=7985 src=211.97.119.88 dst=101.69.63.56 sport=666 dport=9643 packets=61 bytes=3818 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 101.69.63.57
+ipv4     2 udp      17 104 src=101.69.63.57 dst=211.97.119.88 sport=9275 dport=6969 packets=10 bytes=1184 src=211.97.119.88 dst=101.69.63.57 sport=777 dport=6745 packets=10 bytes=544 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 7 src=101.69.63.57 dst=211.97.119.88 sport=9581 dport=6969 packets=6 bytes=264 src=211.97.119.88 dst=101.69.63.57 sport=888 dport=9581 packets=6 bytes=264 mark=0 zone=0 use=2
+ipv4     2 udp      17 7 src=101.69.63.57 dst=211.97.119.88 sport=9581 dport=6969 packets=6 bytes=264 src=211.97.119.88 dst=101.69.63.57 sport=888 dport=9581 packets=6 bytes=264 mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=101.69.63.57 dst=211.97.119.88 sport=9645 dport=2710 packets=4907 bytes=627619 src=211.97.119.88 dst=101.69.63.57 sport=888 dport=9645 packets=4907 bytes=984522 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 7 src=101.69.63.57 dst=211.97.119.88 sport=9343 dport=6969 packets=7 bytes=773 src=211.97.119.88 dst=101.69.63.57 sport=666 dport=9343 packets=7 bytes=328 mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 101.87.80.248
+C:\Users\Administrator\Desktop>lc -n udp -ip 101.228.124.205
+C:\Users\Administrator\Desktop>lc -n udp -ip 103.69.224.16
+C:\Users\Administrator\Desktop>lc -n udp -ip 103.69.224.33
+C:\Users\Administrator\Desktop>lc -n udp -ip 103.75.11.72
+C:\Users\Administrator\Desktop>lc -n udp -ip 104.28.162.142
+ipv4     2 udp      17 179 src=104.28.162.142 dst=211.97.119.88 sport=39161 dport=2710 packets=6211 bytes=439940 src=211.97.119.88 dst=104.28.162.142 sport=1337 dport=39161 packets=6211 bytes=293091 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 179 src=104.28.162.142 dst=211.97.119.88 sport=39161 dport=2710 packets=6211 bytes=439940 src=211.97.119.88 dst=104.28.162.142 sport=1337 dport=39161 packets=6211 bytes=293091 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 179 src=104.28.162.142 dst=211.97.119.88 sport=39161 dport=2710 packets=6211 bytes=439940 src=211.97.119.88 dst=104.28.162.142 sport=1337 dport=39161 packets=6211 bytes=293091 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 106.87.146.70
+C:\Users\Administrator\Desktop>lc -n udp -ip 110.184.33.108
+C:\Users\Administrator\Desktop>lc -n udp -ip 111.31.150.17
+C:\Users\Administrator\Desktop>lc -n udp -ip 111.182.96.231
+C:\Users\Administrator\Desktop>lc -n udp -ip 111.198.30.38
+C:\Users\Administrator\Desktop>lc -n udp -ip 112.45.110.154
+C:\Users\Administrator\Desktop>lc -n udp -ip 112.48.37.152
+ipv4     2 udp      17 4 src=112.48.37.152 dst=211.97.119.88 sport=25908 dport=6969 packets=1 bytes=44 src=211.97.119.88 dst=112.48.37.152 sport=1351 dport=25908 packets=1 bytes=44 mark=0 zone=0 use=2
+ipv4     2 udp      17 2 src=112.48.37.152 dst=211.97.119.88 sport=25908 dport=6969 packets=1 bytes=44 src=211.97.119.88 dst=112.48.37.152 sport=1351 dport=25908 packets=1 bytes=44 mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 113.13.110.175
+C:\Users\Administrator\Desktop>lc -n udp -ip 113.57.152.243
+C:\Users\Administrator\Desktop>lc -n udp -ip 113.76.170.241
+C:\Users\Administrator\Desktop>lc -n udp -ip 114.40.100.45
+ipv4     2 udp      17 178 src=114.40.100.45 dst=211.97.119.88 sport=54502 dport=2710 packets=78165 bytes=9922104 src=211.97.119.88 dst=114.40.100.45 sport=1338 dport=54502 packets=78165 bytes=4569670 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 179 src=114.40.100.45 dst=211.97.119.88 sport=54504 dport=6969 packets=12027 bytes=1590411 src=211.97.119.88 dst=114.40.100.45 sport=1351 dport=54504 packets=12027 bytes=682522 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 114.105.10.175
+C:\Users\Administrator\Desktop>lc -n udp -ip 114.220.129.147
+C:\Users\Administrator\Desktop>lc -n udp -ip 114.225.116.20
+ipv4     2 udp      17 176 src=114.225.116.20 dst=211.97.119.88 sport=4538 dport=6969 packets=669 bytes=87747 src=211.97.119.88 dst=114.225.116.20 sport=1361 dport=4538 packets=669 bytes=36525 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 179 src=114.225.116.20 dst=211.97.119.88 sport=4538 dport=6969 packets=672 bytes=88065 src=211.97.119.88 dst=114.225.116.20 sport=1361 dport=4538 packets=672 bytes=36677 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 114.240.9.147
+C:\Users\Administrator\Desktop>lc -n udp -ip 114.249.224.123
+C:\Users\Administrator\Desktop>lc -n udp -ip 114.254.66.65
+ipv4     2 udp      17 26 src=114.254.66.65 dst=211.97.119.88 sport=6854 dport=2710 packets=898 bytes=118283 src=211.97.119.88 dst=114.254.66.65 sport=1338 dport=6854 packets=898 bytes=70187 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 115.195.42.59
+ipv4     2 udp      17 166 src=115.195.42.59 dst=211.97.119.88 sport=40469 dport=6969 packets=158 bytes=20437 src=211.97.119.88 dst=115.195.42.59 sport=1356 dport=40469 packets=158 bytes=9171 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 164 src=115.195.42.59 dst=211.97.119.88 sport=4950 dport=2710 packets=3121 bytes=406187 src=211.97.119.88 dst=115.195.42.59 sport=1335 dport=4950 packets=3121 bytes=171698 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 115.201.219.52
+C:\Users\Administrator\Desktop>lc -n udp -ip 115.211.2.101
+ipv4     2 udp      17 164 src=115.211.2.101 dst=211.97.119.88 sport=1031 dport=2710 packets=5056 bytes=654635 src=211.97.119.88 dst=115.211.2.101 sport=1340 dport=1031 packets=5056 bytes=270452 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 116.30.100.228
+C:\Users\Administrator\Desktop>lc -n udp -ip 116.147.147.169
+C:\Users\Administrator\Desktop>lc -n udp -ip 116.162.64.110
+C:\Users\Administrator\Desktop>lc -n udp -ip 116.255.58.219
+ipv4     2 udp      17 175 src=116.255.58.219 dst=211.97.119.88 sport=53183 dport=6969 packets=127 bytes=16469 src=211.97.119.88 dst=116.255.58.219 sport=1353 dport=53183 packets=127 bytes=6764 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 117.88.217.197
+C:\Users\Administrator\Desktop>lc -n udp -ip 117.150.172.203
+ipv4     2 udp      17 175 src=117.150.172.203 dst=211.97.119.88 sport=51777 dport=6969 packets=863 bytes=109954 src=211.97.119.88 dst=117.150.172.203 sport=1352 dport=51777 packets=863 bytes=48373 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 117.175.49.254
+ipv4     2 udp      17 177 src=117.175.49.254 dst=211.97.119.88 sport=3729 dport=2710 packets=484 bytes=63425 src=211.97.119.88 dst=117.175.49.254 sport=1339 dport=3729 packets=484 bytes=28274 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=117.175.49.254 dst=211.97.119.88 sport=3729 dport=2710 packets=484 bytes=63425 src=211.97.119.88 dst=117.175.49.254 sport=1339 dport=3729 packets=484 bytes=28274 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=117.175.49.254 dst=211.97.119.88 sport=3729 dport=2710 packets=484 bytes=63425 src=211.97.119.88 dst=117.175.49.254 sport=1339 dport=3729 packets=484 bytes=28274 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=117.175.49.254 dst=211.97.119.88 sport=3729 dport=2710 packets=484 bytes=63425 src=211.97.119.88 dst=117.175.49.254 sport=1339 dport=3729 packets=484 bytes=28274 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=117.175.49.254 dst=211.97.119.88 sport=3729 dport=2710 packets=484 bytes=63425 src=211.97.119.88 dst=117.175.49.254 sport=1339 dport=3729 packets=484 bytes=28274 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 175 src=117.175.49.254 dst=211.97.119.88 sport=3729 dport=2710 packets=484 bytes=63425 src=211.97.119.88 dst=117.175.49.254 sport=1339 dport=3729 packets=484 bytes=28274 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 175 src=117.175.49.254 dst=211.97.119.88 sport=3729 dport=2710 packets=484 bytes=63425 src=211.97.119.88 dst=117.175.49.254 sport=1339 dport=3729 packets=484 bytes=28274 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 175 src=117.175.49.254 dst=211.97.119.88 sport=3729 dport=2710 packets=484 bytes=63425 src=211.97.119.88 dst=117.175.49.254 sport=1339 dport=3729 packets=484 bytes=28274 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 175 src=117.175.49.254 dst=211.97.119.88 sport=3729 dport=2710 packets=484 bytes=63425 src=211.97.119.88 dst=117.175.49.254 sport=1339 dport=3729 packets=484 bytes=28274 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 117.176.206.123
+ipv4     2 udp      17 174 src=117.176.206.123 dst=211.97.119.88 sport=35489 dport=2710 packets=108 bytes=13029 src=211.97.119.88 dst=117.176.206.123 sport=1335 dport=35489 packets=108 bytes=5642 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 156 src=117.176.206.123 dst=211.97.119.88 sport=42774 dport=2710 packets=8 bytes=1003 src=211.97.119.88 dst=117.176.206.123 sport=1331 dport=42774 packets=8 bytes=422 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 156 src=117.176.206.123 dst=211.97.119.88 sport=42774 dport=2710 packets=8 bytes=1003 src=211.97.119.88 dst=117.176.206.123 sport=1331 dport=42774 packets=8 bytes=422 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 117.181.99.44
+C:\Users\Administrator\Desktop>lc -n udp -ip 117.182.230.15
+C:\Users\Administrator\Desktop>lc -n udp -ip 119.136.133.213
+C:\Users\Administrator\Desktop>lc -n udp -ip 120.36.41.31
+C:\Users\Administrator\Desktop>lc -n udp -ip 120.244.2.78
+ipv4     2 udp      17 136 src=120.244.2.78 dst=211.97.119.88 sport=19987 dport=2710 packets=728 bytes=96853 src=211.97.119.88 dst=120.244.2.78 sport=1338 dport=19987 packets=728 bytes=42212 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 178 src=120.244.2.78 dst=211.97.119.88 sport=19987 dport=6969 packets=3 bytes=411 src=211.97.119.88 dst=120.244.2.78 sport=1358 dport=19987 packets=3 bytes=228 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 120.245.2.58
+C:\Users\Administrator\Desktop>lc -n udp -ip 121.138.91.246
+C:\Users\Administrator\Desktop>lc -n udp -ip 121.188.157.242
+C:\Users\Administrator\Desktop>lc -n udp -ip 121.203.221.224
+ipv4     2 udp      17 173 src=121.203.221.224 dst=211.97.119.88 sport=29787 dport=2710 packets=605 bytes=69958 src=211.97.119.88 dst=121.203.221.224 sport=1341 dport=29787 packets=605 bytes=31610 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 104 src=121.203.221.224 dst=211.97.119.88 sport=29787 dport=6969 packets=12 bytes=1551 src=211.97.119.88 dst=121.203.221.224 sport=1362 dport=29787 packets=12 bytes=656 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 122.6.160.220
+ipv4     2 udp      17 119 src=122.6.160.220 dst=211.97.119.88 sport=23613 dport=6969 packets=417 bytes=45690 src=211.97.119.88 dst=122.6.160.220 sport=1353 dport=23613 packets=417 bytes=21625 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 119 src=122.6.160.220 dst=211.97.119.88 sport=23613 dport=6969 packets=417 bytes=45690 src=211.97.119.88 dst=122.6.160.220 sport=1353 dport=23613 packets=417 bytes=21625 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 119 src=122.6.160.220 dst=211.97.119.88 sport=23613 dport=6969 packets=417 bytes=45690 src=211.97.119.88 dst=122.6.160.220 sport=1353 dport=23613 packets=417 bytes=21625 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 119 src=122.6.160.220 dst=211.97.119.88 sport=23613 dport=6969 packets=417 bytes=45690 src=211.97.119.88 dst=122.6.160.220 sport=1353 dport=23613 packets=417 bytes=21625 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 119 src=122.6.160.220 dst=211.97.119.88 sport=23613 dport=6969 packets=417 bytes=45690 src=211.97.119.88 dst=122.6.160.220 sport=1353 dport=23613 packets=417 bytes=21625 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 119 src=122.6.160.220 dst=211.97.119.88 sport=23613 dport=6969 packets=417 bytes=45690 src=211.97.119.88 dst=122.6.160.220 sport=1353 dport=23613 packets=417 bytes=21625 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 119 src=122.6.160.220 dst=211.97.119.88 sport=23613 dport=6969 packets=417 bytes=45690 src=211.97.119.88 dst=122.6.160.220 sport=1353 dport=23613 packets=417 bytes=21625 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 123.110.212.98
+C:\Users\Administrator\Desktop>lc -n udp -ip 123.117.156.210
+C:\Users\Administrator\Desktop>lc -n udp -ip 123.185.78.253
+ipv4     2 udp      17 175 src=123.185.78.253 dst=211.97.119.88 sport=10743 dport=2710 packets=6570 bytes=868005 src=211.97.119.88 dst=123.185.78.253 sport=1335 dport=10743 packets=6570 bytes=369380 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 123.185.130.130
+C:\Users\Administrator\Desktop>lc -n udp -ip 123.186.72.181
+C:\Users\Administrator\Desktop>lc -n udp -ip 123.234.120.219
+ipv4     2 udp      17 168 src=123.234.120.219 dst=211.97.119.88 sport=12152 dport=2710 packets=178 bytes=7832 src=211.97.119.88 dst=123.234.120.219 sport=1339 dport=12152 packets=178 bytes=7832 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 167 src=123.234.120.219 dst=211.97.119.88 sport=12152 dport=2710 packets=178 bytes=7832 src=211.97.119.88 dst=123.234.120.219 sport=1339 dport=12152 packets=178 bytes=7832 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 167 src=123.234.120.219 dst=211.97.119.88 sport=12152 dport=2710 packets=178 bytes=7832 src=211.97.119.88 dst=123.234.120.219 sport=1339 dport=12152 packets=178 bytes=7832 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 167 src=123.234.120.219 dst=211.97.119.88 sport=12152 dport=2710 packets=178 bytes=7832 src=211.97.119.88 dst=123.234.120.219 sport=1339 dport=12152 packets=178 bytes=7832 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 167 src=123.234.120.219 dst=211.97.119.88 sport=12152 dport=2710 packets=178 bytes=7832 src=211.97.119.88 dst=123.234.120.219 sport=1339 dport=12152 packets=178 bytes=7832 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 167 src=123.234.120.219 dst=211.97.119.88 sport=12152 dport=2710 packets=178 bytes=7832 src=211.97.119.88 dst=123.234.120.219 sport=1339 dport=12152 packets=178 bytes=7832 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 167 src=123.234.120.219 dst=211.97.119.88 sport=12152 dport=2710 packets=178 bytes=7832 src=211.97.119.88 dst=123.234.120.219 sport=1339 dport=12152 packets=178 bytes=7832 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 167 src=123.234.120.219 dst=211.97.119.88 sport=12152 dport=2710 packets=178 bytes=7832 src=211.97.119.88 dst=123.234.120.219 sport=1339 dport=12152 packets=178 bytes=7832 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 124.72.57.9
+C:\Users\Administrator\Desktop>lc -n udp -ip 124.79.171.125
+C:\Users\Administrator\Desktop>lc -n udp -ip 124.117.56.43
+C:\Users\Administrator\Desktop>lc -n udp -ip 125.33.242.9
+C:\Users\Administrator\Desktop>lc -n udp -ip 125.86.92.181
+C:\Users\Administrator\Desktop>lc -n udp -ip 126.65.198.68
+C:\Users\Administrator\Desktop>lc -n udp -ip 138.199.6.237
+C:\Users\Administrator\Desktop>lc -n udp -ip 138.199.22.133
+C:\Users\Administrator\Desktop>lc -n udp -ip 141.255.15.26
+C:\Users\Administrator\Desktop>lc -n udp -ip 143.244.47.71
+ipv4     2 udp      17 179 src=143.244.47.71 dst=211.97.119.88 sport=20825 dport=6969 packets=1280 bytes=158341 src=211.97.119.88 dst=143.244.47.71 sport=1359 dport=20825 packets=1279 bytes=72336 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=143.244.47.71 dst=211.97.119.88 sport=20825 dport=2710 packets=2523 bytes=313845 src=211.97.119.88 dst=143.244.47.71 sport=1338 dport=20825 packets=2523 bytes=142692 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=143.244.47.71 dst=211.97.119.88 sport=20825 dport=2710 packets=2523 bytes=313845 src=211.97.119.88 dst=143.244.47.71 sport=1338 dport=20825 packets=2523 bytes=142692 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=143.244.47.71 dst=211.97.119.88 sport=20825 dport=2710 packets=2523 bytes=313845 src=211.97.119.88 dst=143.244.47.71 sport=1338 dport=20825 packets=2523 bytes=142692 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=143.244.47.71 dst=211.97.119.88 sport=20825 dport=2710 packets=2523 bytes=313845 src=211.97.119.88 dst=143.244.47.71 sport=1338 dport=20825 packets=2523 bytes=142692 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=143.244.47.71 dst=211.97.119.88 sport=20825 dport=2710 packets=2523 bytes=313845 src=211.97.119.88 dst=143.244.47.71 sport=1338 dport=20825 packets=2523 bytes=142692 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=143.244.47.71 dst=211.97.119.88 sport=20825 dport=2710 packets=2523 bytes=313845 src=211.97.119.88 dst=143.244.47.71 sport=1338 dport=20825 packets=2523 bytes=142692 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=143.244.47.71 dst=211.97.119.88 sport=20825 dport=2710 packets=2523 bytes=313845 src=211.97.119.88 dst=143.244.47.71 sport=1338 dport=20825 packets=2523 bytes=142692 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 176 src=143.244.47.71 dst=211.97.119.88 sport=20825 dport=2710 packets=2523 bytes=313845 src=211.97.119.88 dst=143.244.47.71 sport=1338 dport=20825 packets=2523 bytes=142692 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 146.70.86.118
+C:\Users\Administrator\Desktop>lc -n udp -ip 146.70.86.122
+C:\Users\Administrator\Desktop>lc -n udp -ip 146.70.194.67
+C:\Users\Administrator\Desktop>lc -n udp -ip 146.70.202.28
+C:\Users\Administrator\Desktop>lc -n udp -ip 146.70.202.151
+C:\Users\Administrator\Desktop>lc -n udp -ip 146.70.226.170
+C:\Users\Administrator\Desktop>lc -n udp -ip 146.70.237.38
+C:\Users\Administrator\Desktop>lc -n udp -ip 149.36.51.155
+C:\Users\Administrator\Desktop>lc -n udp -ip 149.40.48.72
+C:\Users\Administrator\Desktop>lc -n udp -ip 149.88.27.84
+C:\Users\Administrator\Desktop>lc -n udp -ip 150.117.200.251
+C:\Users\Administrator\Desktop>lc -n udp -ip 151.81.72.196
+C:\Users\Administrator\Desktop>lc -n udp -ip 152.110.99.139
+C:\Users\Administrator\Desktop>lc -n udp -ip 154.47.25.71
+C:\Users\Administrator\Desktop>lc -n udp -ip 157.156.233.31
+C:\Users\Administrator\Desktop>lc -n udp -ip 159.26.105.58
+ipv4     2 udp      17 161 src=159.26.105.58 dst=211.97.119.88 sport=42167 dport=6969 packets=193 bytes=24023 src=211.97.119.88 dst=159.26.105.58 sport=1353 dport=42167 packets=193 bytes=10162 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 159.26.119.91
+C:\Users\Administrator\Desktop>lc -n udp -ip 159.26.119.209
+ipv4     2 udp      17 169 src=159.26.119.209 dst=211.97.119.88 sport=38510 dport=6969 packets=631 bytes=76682 src=211.97.119.88 dst=159.26.119.209 sport=1356 dport=38510 packets=631 bytes=33228 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 171.37.15.21
+C:\Users\Administrator\Desktop>lc -n udp -ip 172.58.12.37
+C:\Users\Administrator\Desktop>lc -n udp -ip 175.197.115.245
+C:\Users\Administrator\Desktop>lc -n udp -ip 182.172.122.57
+C:\Users\Administrator\Desktop>lc -n udp -ip 182.212.200.177
+C:\Users\Administrator\Desktop>lc -n udp -ip 183.0.179.82
+C:\Users\Administrator\Desktop>lc -n udp -ip 183.24.47.114
+C:\Users\Administrator\Desktop>lc -n udp -ip 183.156.252.187
+ipv4     2 udp      17 2 src=183.156.252.187 dst=211.97.119.88 sport=56639 dport=2710 packets=1 bytes=137 src=211.97.119.88 dst=183.156.252.187 sport=1332 dport=56639 packets=1 bytes=61 mark=0 zone=0 use=2
+ipv4     2 udp      17 175 src=183.156.252.187 dst=211.97.119.88 sport=1324 dport=6969 packets=1509 bytes=193155 src=211.97.119.88 dst=183.156.252.187 sport=1358 dport=1324 packets=1509 bytes=82707 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 183.192.61.160
+C:\Users\Administrator\Desktop>lc -n udp -ip 183.199.47.86
+C:\Users\Administrator\Desktop>lc -n udp -ip 183.226.210.196
+C:\Users\Administrator\Desktop>lc -n udp -ip 183.228.127.200
+ipv4     2 udp      17 176 src=183.228.127.200 dst=211.97.119.88 sport=1601 dport=2710 packets=2748 bytes=260133 src=211.97.119.88 dst=183.228.127.200 sport=1342 dport=1601 packets=2748 bytes=142998 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 183.241.170.184
+C:\Users\Administrator\Desktop>lc -n udp -ip 184.75.221.107
+ipv4     2 udp      17 179 src=184.75.221.107 dst=211.97.119.88 sport=17303 dport=6969 packets=11067 bytes=1478926 src=211.97.119.88 dst=184.75.221.107 sport=1360 dport=17303 packets=11067 bytes=592800 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 179 src=184.75.221.107 dst=211.97.119.88 sport=17303 dport=6969 packets=11067 bytes=1478926 src=211.97.119.88 dst=184.75.221.107 sport=1360 dport=17303 packets=11067 bytes=592800 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 185.98.169.77
+C:\Users\Administrator\Desktop>lc -n udp -ip 185.166.84.148
+C:\Users\Administrator\Desktop>lc -n udp -ip 185.195.19.212
+C:\Users\Administrator\Desktop>lc -n udp -ip 185.217.168.227
+C:\Users\Administrator\Desktop>lc -n udp -ip 185.228.19.245
+C:\Users\Administrator\Desktop>lc -n udp -ip 185.239.149.59
+ipv4     2 udp      17 10 src=185.239.149.59 dst=211.97.119.88 sport=18129 dport=6969 packets=4 bytes=344 src=211.97.119.88 dst=185.239.149.59 sport=1358 dport=18129 packets=4 bytes=196 mark=0 zone=0 use=2
+ipv4     2 udp      17 10 src=185.239.149.59 dst=211.97.119.88 sport=18129 dport=6969 packets=4 bytes=344 src=211.97.119.88 dst=185.239.149.59 sport=1358 dport=18129 packets=4 bytes=196 mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 185.254.75.39
+ipv4     2 udp      17 128 src=185.254.75.39 dst=211.97.119.88 sport=19257 dport=6969 packets=305 bytes=41320 src=211.97.119.88 dst=185.254.75.39 sport=1361 dport=19257 packets=305 bytes=18587 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 110 src=185.254.75.39 dst=211.97.119.88 sport=19257 dport=2710 packets=564 bytes=77175 src=211.97.119.88 dst=185.254.75.39 sport=1333 dport=19257 packets=564 bytes=27422 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 185.255.128.134
+C:\Users\Administrator\Desktop>lc -n udp -ip 187.175.57.238
+ipv4     2 udp      17 18 src=187.175.57.238 dst=211.97.119.88 sport=52696 dport=6969 packets=32 bytes=3826 src=211.97.119.88 dst=187.175.57.238 sport=1354 dport=52696 packets=32 bytes=1578 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 189.203.12.186
+C:\Users\Administrator\Desktop>lc -n udp -ip 190.2.131.157
+C:\Users\Administrator\Desktop>lc -n udp -ip 190.2.132.148
+C:\Users\Administrator\Desktop>lc -n udp -ip 191.96.101.180
+C:\Users\Administrator\Desktop>lc -n udp -ip 192.166.247.89
+C:\Users\Administrator\Desktop>lc -n udp -ip 193.142.201.78
+ipv4     2 udp      17 169 src=193.142.201.78 dst=211.97.119.88 sport=17983 dport=6969 packets=974 bytes=130462 src=211.97.119.88 dst=193.142.201.78 sport=1362 dport=17983 packets=974 bytes=56390 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 168 src=193.142.201.78 dst=211.97.119.88 sport=35537 dport=2710 packets=498 bytes=66552 src=211.97.119.88 dst=193.142.201.78 sport=1332 dport=35537 packets=498 bytes=29633 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 194.107.160.76
+C:\Users\Administrator\Desktop>lc -n udp -ip 198.44.138.141
+C:\Users\Administrator\Desktop>lc -n udp -ip 200.140.249.122
+C:\Users\Administrator\Desktop>lc -n udp -ip 204.8.98.36
+C:\Users\Administrator\Desktop>lc -n udp -ip 204.8.98.86
+ipv4     2 udp      17 178 src=204.8.98.86 dst=211.97.119.88 sport=47285 dport=6969 packets=735 bytes=96045 src=211.97.119.88 dst=204.8.98.86 sport=1352 dport=47285 packets=735 bytes=39491 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 178 src=204.8.98.86 dst=211.97.119.88 sport=47285 dport=2710 packets=11977 bytes=1352456 src=211.97.119.88 dst=204.8.98.86 sport=1341 dport=47285 packets=11977 bytes=671622 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 178 src=204.8.98.86 dst=211.97.119.88 sport=47285 dport=2710 packets=11977 bytes=1352456 src=211.97.119.88 dst=204.8.98.86 sport=1341 dport=47285 packets=11977 bytes=671622 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 175 src=204.8.98.86 dst=211.97.119.88 sport=47285 dport=2710 packets=11985 bytes=1353273 src=211.97.119.88 dst=204.8.98.86 sport=1341 dport=47285 packets=11985 bytes=672024 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 205.147.16.35
+C:\Users\Administrator\Desktop>lc -n udp -ip 205.147.16.42
+C:\Users\Administrator\Desktop>lc -n udp -ip 205.147.16.54
+C:\Users\Administrator\Desktop>lc -n udp -ip 205.147.16.93
+C:\Users\Administrator\Desktop>lc -n udp -ip 205.147.16.132
+C:\Users\Administrator\Desktop>lc -n udp -ip 205.147.16.164
+C:\Users\Administrator\Desktop>lc -n udp -ip 205.147.16.180
+C:\Users\Administrator\Desktop>lc -n udp -ip 212.15.86.246
+C:\Users\Administrator\Desktop>lc -n udp -ip 212.30.36.39
+C:\Users\Administrator\Desktop>lc -n udp -ip 212.92.104.195
+C:\Users\Administrator\Desktop>lc -n udp -ip 212.92.104.233
+C:\Users\Administrator\Desktop>lc -n udp -ip 212.92.104.250
+C:\Users\Administrator\Desktop>lc -n udp -ip 212.97.70.11
+C:\Users\Administrator\Desktop>lc -n udp -ip 217.216.113.197
+C:\Users\Administrator\Desktop>lc -n udp -ip 218.88.164.27
+C:\Users\Administrator\Desktop>lc -n udp -ip 218.91.77.157
+C:\Users\Administrator\Desktop>lc -n udp -ip 218.94.87.131
+ipv4     2 udp      17 167 src=218.94.87.131 dst=211.97.119.88 sport=44356 dport=2710 packets=611 bytes=77536 src=211.97.119.88 dst=218.94.87.131 sport=1341 dport=44356 packets=611 bytes=36564 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 219.138.5.21
+C:\Users\Administrator\Desktop>lc -n udp -ip 222.93.12.69
+C:\Users\Administrator\Desktop>lc -n udp -ip 222.93.13.87
+C:\Users\Administrator\Desktop>lc -n udp -ip 222.95.66.7
+C:\Users\Administrator\Desktop>lc -n udp -ip 223.68.97.76
+ipv4     2 udp      17 159 src=223.68.97.76 dst=211.97.119.88 sport=44813 dport=6969 packets=33 bytes=3963 src=211.97.119.88 dst=223.68.97.76 sport=1353 dport=44813 packets=33 bytes=1890 [ASSURED] mark=0 zone=0 use=2
+ipv4     2 udp      17 159 src=223.68.97.76 dst=211.97.119.88 sport=44813 dport=6969 packets=33 bytes=3963 src=211.97.119.88 dst=223.68.97.76 sport=1353 dport=44813 packets=33 bytes=1890 [ASSURED] mark=0 zone=0 use=2
+C:\Users\Administrator\Desktop>lc -n udp -ip 223.73.121.141
+C:\Users\Administrator\Desktop>lc -n udp -ip 223.198.52.167
+C:\Users\Administrator\Desktop>
