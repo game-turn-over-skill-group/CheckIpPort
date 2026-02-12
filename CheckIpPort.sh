@@ -98,7 +98,7 @@ if [[ -s "$temp_open" ]]; then
 	# sort "$temp_open" | uniq
 	# sort "$temp_open" | uniq >> "$open_results"
 	cat "$temp_open"
-	echo "$temp_open" >> "$open_results"
+	cat "$temp_open" >> "$open_results"
 else
   echo "没有检测到开放端口的IP。"
 fi
