@@ -39,7 +39,7 @@ temp_all=$(mktemp "$temp_dir\\temp_all.XXXXXX")
 temp_open=$(mktemp "$temp_dir\\temp_open.XXXXXX")
 temp_close=$(mktemp "$temp_dir\\temp_close.XXXXXX")
 
-# 提取IP和端口并输出
+# 第一步 提取IP和端口并输出
 echo "提取到的IP和端口："
 while IFS= read -r line; do
   if [[ $line =~ $regex ]]; then
@@ -57,10 +57,16 @@ while IFS= read -r line; do
   fi
 done < "$logfile"
 
-# 第三步：对temp_all去重（核心步骤，仅这一步新增）
-sort -u "$temp_all" > "$temp_all.tmp" && mv "$temp_all.tmp" "$temp_all"
+# 第二步：对temp_all；默认:以IP数字模式去重/排序；包含"ipv6"则进行普通去重/排序
+if grep -qi "ipv6" "$logfile"; then
+    # 如果包含ipv6，使用普通去重排序（-u）
+    sort -u "$temp_all" > "$temp_all.tmp" && mv "$temp_all.tmp" "$temp_all"
+else
+    # 如果不包含ipv6，使用IP数字逻辑排序+去重（-Vu）
+    sort -Vu "$temp_all" > "$temp_all.tmp" && mv "$temp_all.tmp" "$temp_all"
+fi
 
-# 第四步：读取去重后的temp_all，echo到终端（格式为IP:端口）
+# 第三步：读取去重后的temp_all，echo到终端（格式为IP:端口）
 while IFS=' ' read -r ip port; do
   echo "$ip:$port"
 done < "$temp_all"
@@ -89,16 +95,18 @@ done < "$temp_all"
 # 输出开放端口的IP+端口（去重）
 if [[ -s "$temp_open" ]]; then
 	echo "已检测到开放端口的IP如下："
-	sort "$temp_open" | uniq
-	sort "$temp_open" | uniq >> "$open_results"
+	# sort "$temp_open" | uniq
+	# sort "$temp_open" | uniq >> "$open_results"
+	cat "$temp_open"
+	echo "$temp_open" >> "$open_results"
 else
   echo "没有检测到开放端口的IP。"
 fi
 
 echo "未开放端口的IP如下："
 if [[ -s "$temp_close" ]]; then
-	# cat "$temp_close"
-	sort "$temp_close" | uniq
+	# sort "$temp_close" | uniq
+	cat "$temp_close"
 else
   echo "没有提取到任何IP和端口。"
 fi
