@@ -18,35 +18,20 @@ regex='src=([0-9a-fA-F:.]+).*sport=([0-9]+)'
 echo "" > "$logfile"
 echo "" > "$open_results"
 
-# ========== 新增：处理传入的参数 ==========
-input_file="$1"
-if [ -n "$input_file" ]; then
-    # 如果传入了参数（日志文件路径），直接读取该文件内容到logfile
-    if [ -f "$input_file" ]; then
-        cat "$input_file" > "$logfile"
-        echo "已从指定文件读取日志内容：$input_file"
-    else
-        echo "错误：指定的文件不存在！$input_file"
-        exit 1
-    fi
-else
-    # 无参数，执行原手动模式
-    # 打开RouteLog.txt 以便用户输入日志
-    cmd.exe /c start "" "$logfile"
+# 打开RouteLog.txt以便用户输入日志
+cmd.exe /c start "" "$logfile"
 
-    echo "请在RouteLog.txt中输入日志内容并保存"
-    # 等待用户按下任意键继续
-    # read -n 1 -s -r -p "按任意键继续..."
+echo "请在RouteLog.txt中输入日志内容并保存"
+# 等待用户按下任意键继续
+# read -n 1 -s -r -p "按任意键继续..."
 
-    # 等待文件不为空且不只是空行
-    while true; do
-        if [[ -s "$logfile" && $(grep -v '^[[:space:]]*$' "$logfile") ]]; then
-            break
-        fi
-        sleep 1
-    done
-fi  # 外层if的闭合fi放在这里！
-# ========== 结束：参数处理 ==========
+# 等待文件不为空且不只是空行
+while true; do
+  if [[ -s "$logfile" && $(grep -v '^[[:space:]]*$' "$logfile") ]]; then
+    break
+  fi
+  sleep 1
+done
 
 # 临时文件存储提取的IP和端口
 temp_dir=$(cmd /c echo %TEMP% | tr -d '\r')
