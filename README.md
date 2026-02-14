@@ -3,7 +3,8 @@
 
 将win系统的去重命令移除
 ```bash
-rename "C:\Windows\System32\sort.exe" "sort2.exe.bak"
+rename "C:\Windows\System32\sort.exe" "sort.exe.bak"
+rename "C:\Windows\SysWOW64\sort.exe" "sort.exe.bak"
 ```
 
 使用Cygwin控制台的去重命令
